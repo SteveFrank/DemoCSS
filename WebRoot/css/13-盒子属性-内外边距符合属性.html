@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13-盒子属性-内外边距符合属性.html</title>
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ 	<style type="text/css">
+ 		.onediv{
+ 			border-color: red;
+ 			border-width: 1px;
+ 			border-style: solid;
+ 			width: 300px;
+ 			height: 300px
+ 		}
+ 		#one{
+ 			/*
+ 				1个属性时：4个方向
+ 				2个属性时：第一个上下，第二个决定左右
+ 				3个属性时：上 左右 下
+ 				2个属性时：上 右 下 左（顺时针方向）
+ 			*/
+ 			padding: 10px
+ 			/*width: 200px;
+ 			height: 300px;
+ 			//内边距,会使自身的宽高！ 
+ 			padding-left: 100px;
+ 			padding-right: 100px;
+ 			*/
+ 		}
+ 		#two{
+ 			/*  外边距 
+ 			width: 100px;
+ 			height: 100px;
+          	margin-right: 100px;
+ 			margin-left: 100px;
+ 			margin-bottom: 100px;
+ 			margin-top: 100px; */
+ 		}
+ 	</style>
+  </head>
+  
+  <body>
+  	<div class="onediv" id="one">
+  		<div class="onediv" id="two">
+  			
+  		</div>
+  	</div>
+  </body>
+</html>

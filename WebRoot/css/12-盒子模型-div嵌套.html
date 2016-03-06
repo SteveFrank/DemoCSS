@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12-盒子模型-div嵌套.html</title>
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ 	<style type="text/css">
+ 		.onediv{
+ 			border-color: red;
+ 			border-width: 1px;
+ 			border-style: solid;
+ 		}
+ 		#one{
+ 			width: 200px;
+ 			height: 300px;
+ 			/*内边距,会使自身的宽高！ 
+ 			padding-left: 100px;
+ 			padding-right: -100px;
+ 			*/
+ 		}
+ 		#two{
+ 			width: 100px;
+ 			height: 100px;
+/*  外边距           margin-right: 100px;
+ 			margin-left: 100px;
+ 			margin-bottom: 100px;
+ 			margin-top: 100px; */
+ 		}
+ 		.g{
+ 			font-size:15px;
+ 			filter:glow(color=skyblue,strength=2);
+ 			font-family:华文行楷;
+ 		}
+ 	</style>
+  </head>
+  
+  <body>
+  	<div class="onediv" id="one">
+  		test1
+  		<div class="onediv" id="two">
+  			<h3 class="g">CSS学习model</h3>
+  		</div>
+  	</div>
+  </body>
+</html>

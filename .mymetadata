@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DemoCSS"
+  id="myeclipse.1439522098580"
+  context-root="/DemoCSS"
+  j2ee-spec="5.0"
+  archive="DemoCSS.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
